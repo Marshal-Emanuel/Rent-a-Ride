@@ -10,7 +10,7 @@
         }
 
         .form-container {
-            width: 4000px; 
+            width: 400px; 
             margin: 20px auto;
             background-color: #fff;
             padding: 20px;
