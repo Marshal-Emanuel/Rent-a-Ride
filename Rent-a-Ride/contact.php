@@ -3,7 +3,7 @@
 <head>
     <style>
         body {
-            font-family: Arial, sans-serif; sans serif
+            font-family: Arial, sans-serif; sans se
             background-color: #f2f2f2;
             margin: 0; 
             padding: 0;
