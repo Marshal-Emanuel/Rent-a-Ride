@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (empty($name) || empty($email) || empty($subject) || empty($message)) {
         $error = "All fields are required.";
     } else {
-        $host = "localhost";
+        $host = "locat";
         $username = "root";
         $password = "";
         $database = "rent_a_ride";
