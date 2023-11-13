@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     } else {
         $host = "localhost";
         $username = "root";
-        $password = "" ;
+        $password = "";
         $database = "rent_a_ride";
 
         $conn = new mysqli($host, $username, $password, $database);
