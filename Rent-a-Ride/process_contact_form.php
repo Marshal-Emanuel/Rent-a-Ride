@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $_POST["email"];
     $subject = $_POST["subject"];
     $message = $_POST["message"]; 
-
+ 
     if (empty($name) || empty($email) || empty($subject) || empty($message)) {
         $error = "All fields are required.";
     } else {
